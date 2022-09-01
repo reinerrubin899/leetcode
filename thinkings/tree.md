@@ -25,7 +25,7 @@
 
 ## 食用指南
 
-大家好，我是 lucifer。今天给大家带来的是《树》专题。另外为了保持章节的聚焦性和实用性，省去了一些内容，比如哈夫曼树，前缀树，平衡二叉树（红黑树等），二叉堆。这些内容相对来说实用性没有那么强，如果大家对这些内容也感兴趣，可以关注下我的仓库 [leetcode 算法题解](https://github.com/azl397985856/leetcode "leetcode 算法题解")，大家有想看的内容也可以留言告诉我哦~
+大家好，我是 lucifer。今天给大家带来的是《[树](https://www.scaler.com/topics/data-structures/tree-data-structure/)》专题。另外为了保持章节的聚焦性和实用性，省去了一些内容，比如哈夫曼树，前缀树，平衡二叉树（红黑树等），二叉堆。这些内容相对来说实用性没有那么强，如果大家对这些内容也感兴趣，可以关注下我的仓库 [leetcode 算法题解](https://github.com/azl397985856/leetcode "leetcode 算法题解")，大家有想看的内容也可以留言告诉我哦~
 
 另外要提前告知大家的是本文所讲的很多内容都很依赖于递归。关于递归的练习我推荐大家把递归过程画到纸上，手动代入几次。等大脑熟悉了递归之后就不用这么辛苦了。 实在懒得画图的同学也可以找一个可视化递归的网站，比如 https://recursion.now.sh/。 等你对递归有了一定的理解之后就仔细研究一下树的各种遍历方法，再把本文看完，最后把文章末尾的题目做一做，搞定个递归问题不大。
 
@@ -580,7 +580,7 @@ class Solution:
             # 叶子节点
             if cur and not cur.left and not cur.right:
                 if remain == cur.val:
-                    res.append((path + [cur.val]).copy())
+                    nodes.append((path + [cur.val]).copy())
                 return
             # 选择
             path.append(cur.val)
@@ -771,7 +771,14 @@ class Solution {
 
 再比如 [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)，官方难度为困难。题目大意是`给你二叉搜索树的根节点 root ，该树中的两个节点被错误地交换。请在不改变其结构的情况下，恢复这棵树。` 我们可以先中序遍历发现不是递增的节点，他们就是被错误交换的节点，然后交换恢复即可。这道题难点就在于一点，即错误交换可能错误交换了中序遍历的相邻节点或者中序遍历的非相邻节点，这是两种 case，需要分别讨论。
 
-类似的题目很多，不再赘述。大家如果**碰到二叉搜索树的搜索类题目，一定先想下能不能利用这个性质来做。**
+类似的题目很多，不再赘述。练习的话大家可以做一下这几道题。
+
+- [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- [250. 统计同值子树](https://leetcode-cn.com/problems/count-univalue-subtrees/)
+
+大家如果**碰到二叉搜索树的搜索类题目，一定先想下能不能利用这个性质来做。**
 
 ### 完全二叉树
 

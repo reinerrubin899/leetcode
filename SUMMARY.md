@@ -12,6 +12,7 @@
   - [二分专题（上）](./thinkings/binary-search-1.md)
   - [二分专题（下）](./thinkings/binary-search-2.md)
   - [动态规划(重置版)](./thinkings/dynamic-programming.md)
+  - [大话搜索](./thinkings/search.md)
   - [二叉树的遍历](thinkings/binary-tree-traversal.md)
   - [哈夫曼编码和游程编码](thinkings/run-length-encode-and-huffman-encode.md)
   - [布隆过滤器](thinkings/bloom-filter.md)
@@ -86,6 +87,7 @@
   - [0504. 七进制数](./problems/504.base-7.md)
   - [0575. 分糖果](problems/575.distribute-candies.md)
   - [0665. 非递减数列](./problems/665.non-decreasing-array.md)
+  - [0661. 图片平滑器](./problems/661.image-smoother.md)
   - [821. 字符的最短距离](problems/821.shortest-distance-to-a-character.md) 91
   - [0874. 模拟行走机器人](problems/874.walking-robot-simulation.md)
   - [1128. 等价多米诺骨牌对的数量](./problems/1128.number-of-equivalent-domino-pairs.md)
@@ -103,6 +105,8 @@
   - [Number of Substrings with Single Character Difference](./problems/Number-of-Substrings-with-Single-Character-Difference.md)
   - [Bus Fare](./problems/Bus-Fare.md) 👍
   - [Minimum Dropping Path Sum](./problems/Minimum-Dropping-Path-Sum.md)
+  - [Every Sublist Min Sum](./problems/Every-Sublist-Min-Sum.md)
+  - [Maximize the Number of Equivalent Pairs After Swaps](./problems/Maximize-the-Number-of-Equivalent-Pairs-After-Swaps.md)
   - [0002. 两数相加](./problems/2.add-two-numbers.md)
   - [0003. 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters.md)
   - [0005. 最长回文子串](./problems/5.longest-palindromic-substring.md)
@@ -170,6 +174,7 @@
   - [0279. 完全平方数](./problems/279.perfect-squares.md)
   - [0309. 最佳买卖股票时机含冷冻期](./problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md) 👍
   - [0322. 零钱兑换](./problems/322.coin-change.md)
+  - [0324. 摆动排序 II](./problems/324.wiggle-sort-ii.md)
   - [0328. 奇偶链表](./problems/328.odd-even-linked-list.md)
   - [0331. 验证二叉树的前序序列化](./problems/331.verify-preorder-serialization-of-a-binary-tree.md) 👍
   - [0334. 递增的三元子序列](./problems/334.increasing-triplet-subsequence.md) 👍
@@ -185,7 +190,9 @@
   - [0445. 两数相加 II](./problems/445.add-two-numbers-ii.md)
   - [0454. 四数相加 II](./problems/454.4-sum-ii.md)
   - [0456. 132 模式](./problems/456.132-pattern.md) 👍
+  - [0457.457. 环形数组是否存在循环](./problems/457.circular-array-loop.md)
   - [0464. 我能赢么](./problems/464.can-i-win.md) 👍
+  - [0470. 用 Rand7() 实现 Rand10](./problems/470.implement-rand10-using-rand7.md)
   - [0473. 火柴拼正方形](./problems/473.matchsticks-to-square.md) 👍
   - [0494. 目标和](./problems/494.target-sum.md)
   - [0516. 最长回文子序列](./problems/516.longest-palindromic-subsequence.md)
@@ -198,6 +205,7 @@
   - [0611. 有效三角形的个数](./problems/611.valid-triangle-number.md) 👍
   - [0673. 最长递增子序列的个数](./problems/673.number-of-longest-increasing-subsequence.md)
   - [0686. 重复叠加字符串匹配](./problems/686.repeated-string-match.md)
+  - [0710. 黑名单中的随机数](./problems/710.random-pick-with-blacklist.md)
   - [0714. 买卖股票的最佳时机含手续费](./problems/714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) 👍
   - [0718. 最长重复子数组](./problems/718.maximum-length-of-repeated-subarray.md)
   - [0735. 行星碰撞](./problems/735.asteroid-collision.md)
@@ -208,6 +216,7 @@
   - [0801. 使序列递增的最小交换次数](./problems/801.minimum-swaps-to-make-sequences-increasing.md) 👍
   - [0816. 模糊坐标](./problems/816.ambiguous-coordinates.md) 👍
   - [0820. 单词的压缩编码](./problems/820.short-encoding-of-words.md)
+  - [0838. 推多米诺](./problems/838.push-dominoes.md)
   - [0873. 最长的斐波那契子序列的长度](./problems/873.length-of-longest-fibonacci-subsequence.md) 👍
   - [0875. 爱吃香蕉的珂珂](./problems/875.koko-eating-bananas.md)
   - [0877. 石子游戏](./problems/877.stone-game.md)
@@ -234,6 +243,7 @@
   - [1104. 二叉树寻路](./problems/1104.path-in-zigzag-labelled-binary-tree.md) 👍
   - [1129. 颜色交替的最短路径](./problems/1129.shortest-path-with-alternating-colors.md)
   - [1131.绝对值表达式的最大值](./problems/1131.maximum-of-absolute-value-expression.md) 👍
+  - [1138. 字母板上的路径](./problems/1138.alphabet-board-path.md)
   - [1186. 删除一次得到子数组最大和](./problems/1186.maximum-subarray-sum-with-one-deletion.md) 👍
   - [1218. 最长定差子序列](./problems/1218.longest-arithmetic-subsequence-of-given-difference.md) 👍
   - [1227. 飞机座位分配概率](./problems/1227.airplane-seat-assignment-probability.md) 👍
@@ -251,10 +261,17 @@
   - [1658. 将 x 减到 0 的最小操作数](./problems/1658.minimum-operations-to-reduce-x-to-zero.md)
   - [1697. 检查边长度限制的路径是否存在](./problems/1697.checking-existence-of-edge-length-limited-paths.md)
   - [1737. 满足三条件之一需改变的最少字符数](./problems/1737.change-minimum-characters-to-satisfy-one-of-three-conditions.md) 👍
+  - [1770. 执行乘法运算的最大分数](./problems/1770.maximum-score-from-performing-multiplication-operations.md)👍 91
   - [1834. 单线程 CPU](./problems/1834.single-threaded-cpu.md)
   - [1899. 合并若干三元组以形成目标三元组](./problems/1899.merge-triplets-to-form-target-triplet.md) 👍
   - [1904. 你完成的完整对局数](./problems/1904.the-number-of-full-rounds-you-have-played.md)
   - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
+  - [1906. 查询差绝对值的最小值](./problems/1906.minimum-absolute-difference-queries.md)
+  - [2007. 从双倍数组中还原原数组](./problems/2007.find-original-array-from-doubled-array.md)
+  - [2008. 出租车的最大盈利](./problems/2008.maximum-earnings-from-taxi.md)
+  - [5935. 适合打劫银行的日子](./problems/5935.find-good-days-to-rob-the-bank.md)
+  - [5936. 引爆最多的炸弹](./problems/5936.detonate-the-maximum-bombs.md)
+  - [5965. 相同元素的间隔之和](./problems/5965.intervals-between-identical-elements.md)
 
 - [第六章 - 高频考题（困难）](collections/hard.md)
 
@@ -331,5 +348,15 @@
   - [1871. 跳跃游戏 VII](./problems/1871.jump-game-vii.md) 👍
   - [1872. 石子游戏 VIII](./problems/1872.stone-game-viii.md)
   - [1883. 准时抵达会议现场的最小跳过休息次数](./problems/5775.minimum-skips-to-arrive-at-meeting-on-time.md)
+  - [1970. 你能穿过矩阵的最后一天](./problems/1970.last-day-where-you-can-still-cross.md)
+  - [2009. 使数组连续的最少操作数](./problems/2009.minimum-number-of-operations-to-make-array-continuous.md)
+  - [2025. 分割数组的最多方案数](./problems/2025.maximum-number-of-ways-to-partition-an-array.md)
+  - [2030. 含特定字母的最小子序列](./problems/2030.smallest-k-length-subsequence-with-occurrences-of-a-letter.md)
+  - [2102. 序列顺序查询](./problems/2102.sequentially-ordinal-rank-tracker.md)
+  - [2209. 用地毯覆盖后的最少白色砖块](./problems/2209.minimum-white-tiles-after-covering-with-carpets.md)
+  - [2281.sum-of-total-strength-of-wizards](./problems/2281.sum-of-total-strength-of-wizards.md)
+  - [2306. 公司命名](./problems/2306.naming-a-company.md) 枚举优化好题
+  - [5254. 卖木头块](./problems/5254.selling-pieces-of-wood.md) 动态规划经典题
+  - [5999. 统计数组中好三元组数目](./problems/5999.count-good-triplets-in-an-array.md) 👍
 
 - [后序](epilogue.md)
